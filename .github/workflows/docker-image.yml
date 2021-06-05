@@ -16,3 +16,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag docker-xteve:$(date +%s)
+
+- name: Build, Tag, Publish Docker
+  # You may pin to the exact commit or the version.
+  # uses: HurricanKai/Publish-Docker-Github-Action@a3735f38c4487925096d31493c84c87eef1693f4
+  uses: HurricanKai/Publish-Docker-Github-Action@1.12.1
