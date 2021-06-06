@@ -1,4 +1,6 @@
 # xteve
+## Updated by Deanosim to add a github action to auto build a docker container using github actions. You can see the output here https://github.com/users/Deanosim/packages/container/package/xteve
+
 xteve, in docker with cron
 
 docker runs in host mode \
