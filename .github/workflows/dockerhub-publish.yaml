@@ -7,10 +7,10 @@ name: Dockerhub
 # documentation.
 
 on:
-  #schedule:
-  #  - cron: '23 9 * * *'
+  schedule:
+    - cron: '23 9 * * 1'
   push:
-    branches: [ master ]
+    #branches: [ master ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   pull_request:
