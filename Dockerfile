@@ -3,14 +3,14 @@ RUN apk update
 RUN apk upgrade
 RUN apk add --no-cache ca-certificates
 
-MAINTAINER alturismo alturismo@gmail.com
+MAINTAINER Deanosim 4834976+Deanosim@users.noreply.github.com
 
 # Extras
 RUN apk add --no-cache curl
 
 # Timezone (TZ)
 RUN apk update && apk add --no-cache tzdata
-ENV TZ=Europe/Berlin
+ENV TZ=Australia/Melbourne
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Add Bash shell & dependancies
