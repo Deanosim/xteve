@@ -1,5 +1,8 @@
 # xteve
-## Updated by Deanosim to add a github action to auto build a docker container using github actions. You can see the output here https://github.com/users/Deanosim/packages/container/package/xteve
+
+## Updated by Deanosim to add a github action to auto build a docker container using github actions. 
+- Images for Github [`docker pull ghcr.io/deanosim/xteve:master`](https://github.com/users/Deanosim/packages/container/package/xteve)
+- Images for Dockerhub [`docker pull deanosim/xteve`](https://hub.docker.com/r/deanosim/xteve) 
 
 xteve, in docker with cron
 
