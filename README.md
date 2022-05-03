@@ -1,5 +1,7 @@
 # xteve
 
+## Experimental SCP002 Xteve builds in the [SCP002](https://github.com/Deanosim/xteve/tree/SCP002) Branch
+
 ## Updated by Deanosim to add a github action to auto build a docker container using github actions. 
 - Images for Github [`docker pull ghcr.io/deanosim/xteve`](https://github.com/users/Deanosim/packages/container/package/xteve) 
 [![Docker](https://github.com/Deanosim/xteve/actions/workflows/github-docker-publish.yml/badge.svg)](https://github.com/Deanosim/xteve/actions/workflows/github-docker-publish.yml)
