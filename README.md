@@ -1,7 +1,7 @@
 # xteve
 
 ## Updated by Deanosim to add a github action to auto build a docker container using github actions. 
-## SCP002 has archived their github repo for xteve so 2.5.0.0000 might be the last update from them.
+### SCP002 has archived their github repo for xteve so 2.5.0.0000 might be the last update from them.
 - Images for Github [`docker pull ghcr.io/deanosim/xteve:SCP002`](https://github.com/users/Deanosim/packages/container/package/xteve) 
 [![Docker](https://github.com/Deanosim/xteve/actions/workflows/github-docker-publish.yml/badge.svg)](https://github.com/Deanosim/xteve/actions/workflows/github-docker-publish.yml)
 - Images for Dockerhub [`docker pull deanosim/xteve:SCP002`](https://hub.docker.com/r/deanosim/xteve) 
