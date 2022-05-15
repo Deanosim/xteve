@@ -27,7 +27,7 @@ RUN apk add vlc
 RUN sed -i 's/geteuid/getppid/' /usr/bin/vlc
 
 # Add xTeve and guide2go
-RUN wget https://github.com/SCP002/xTeVe/releases/download/2.4.1.0000/xteve_linux_amd64 -O xteve; cp xteve /usr/bin/; rm xteve
+RUN wget https://github.com/SCP002/xTeVe/releases/download/2.5.0.0000/xteve_linux_amd64 -O xteve; cp xteve /usr/bin/; rm xteve
 ADD cronjob.sh /
 ADD entrypoint.sh /
 ADD sample_cron.txt /
